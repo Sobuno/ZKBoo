@@ -1,8 +1,10 @@
-/*
- * shared.h
- *
- *  Created on: 06/10/2015
- *      Author: Sobuno
+ /*
+ ============================================================================
+ Name        : shared.h
+ Author      : Sobuno
+ Version     : 0.1
+ Description : Common functions for the SHA-1 prover and verifier
+ ============================================================================
  */
 
 #ifndef SHARED_H_
