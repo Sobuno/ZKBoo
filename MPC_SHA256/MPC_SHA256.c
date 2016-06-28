@@ -531,14 +531,15 @@ a commit(int numBytes,unsigned char shares[3][numBytes], unsigned char *randomne
 	output(views[1], result2);
 	uint32_t* result3 = malloc(32);
 	output(views[2], result3);
-	free(result1);
-	free(result2);
-	free(result3);
 
 	a a;
 	memcpy(a.yp[0], result1, 32);
 	memcpy(a.yp[1], result2, 32);
 	memcpy(a.yp[2], result3, 32);
+
+	free(result1);
+	free(result2);
+	free(result3);
 
 	return a;
 }
